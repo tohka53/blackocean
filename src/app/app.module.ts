@@ -13,6 +13,9 @@ import { AboutComponent } from './about/componets/about/about.component';
 import { FaqComponent } from './faq/componets/faq/faq.component';
 import { ContactusComponent } from './contactus/componets/contactus/contactus.component';
 import { BlogpageComponent } from './blogpage/componets/blogpage/blogpage.component';
+import { Blogpage1Component } from './blogpage1/componets/blogpage1/blogpage1.component';
+import { Blogpage2Component } from './blogpage2/componets/blogpage2/blogpage2.component';
+import { Blogpage3Component } from './blogpage3/componets/blogpage3/blogpage3.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { BlogpageComponent } from './blogpage/componets/blogpage/blogpage.compon
     AboutComponent,
     FaqComponent,
     ContactusComponent,
-    BlogpageComponent
+    BlogpageComponent,
+    Blogpage1Component,
+    Blogpage2Component,
+    Blogpage3Component
   ],
   imports: [
     BrowserModule,
