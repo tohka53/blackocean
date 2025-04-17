@@ -16,6 +16,16 @@ import { BlogpageComponent } from './blogpage/componets/blogpage/blogpage.compon
 import { Blogpage1Component } from './blogpage1/componets/blogpage1/blogpage1.component';
 import { Blogpage2Component } from './blogpage2/componets/blogpage2/blogpage2.component';
 import { Blogpage3Component } from './blogpage3/componets/blogpage3/blogpage3.component';
+import { Art1Component } from './art1/art1/art1.component';
+import { Art2Component } from './art2/art2/art2.component';
+import { Art3Component } from './art3/art3/art3.component';
+import { Art4Component } from './art4/art4/art4.component';
+import { Art5Component } from './art5/art5/art5.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'; // Importar FormsModule para Template-driven forms
+import { HttpClientModule } from '@angular/common/http'; // Importar HttpClientModule para realizar peticiones HTTP
+import { CommonModule } from '@angular/common'; // Importar CommonModule para usar directivas comunes como ngIf, ngFor, etc.
+import { RouterModule } from '@angular/router'; // Importar RouterModule para usar directivas de enrutamiento   
 
 @NgModule({
   declarations: [
@@ -31,12 +41,19 @@ import { Blogpage3Component } from './blogpage3/componets/blogpage3/blogpage3.co
     BlogpageComponent,
     Blogpage1Component,
     Blogpage2Component,
-    Blogpage3Component
+    Blogpage3Component,
+    Art1Component,
+    Art2Component,
+    Art3Component,
+    Art4Component,
+    Art5Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
+    ReactiveFormsModule, // Añadir a los imports
+    FormsModule, // Añadir a los imports para Template-driven forms
+    HttpClientModule, // Añadir a los imports para realizar peticiones HTTP 
     RouterLink
   ],
   providers: [
