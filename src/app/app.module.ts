@@ -25,7 +25,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule para Template-driven forms
 import { HttpClientModule } from '@angular/common/http'; // Importar HttpClientModule para realizar peticiones HTTP
 import { CommonModule } from '@angular/common'; // Importar CommonModule para usar directivas comunes como ngIf, ngFor, etc.
-import { RouterModule } from '@angular/router'; // Importar RouterModule para usar directivas de enrutamiento   
+import { RouterModule } from '@angular/router';
+import { ColaComponent } from './cola/cola/cola.component'; // Importar RouterModule para usar directivas de enrutamiento   
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { RouterModule } from '@angular/router'; // Importar RouterModule para us
     Art2Component,
     Art3Component,
     Art4Component,
-    Art5Component
+    Art5Component,
+    ColaComponent
   ],
   imports: [
     BrowserModule,

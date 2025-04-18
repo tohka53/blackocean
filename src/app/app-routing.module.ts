@@ -52,7 +52,10 @@ const routes: Routes = [
     path: 'artist5',
     loadChildren: () => import('./art5/art5/art5.module').then(m => m.Art5Module)
   }, 
-
+  {
+    path: 'comnta',
+    loadChildren: () => import('./cola/cola/cola.module').then(m => m.ColaModule)
+  }, 
 
   {
     
